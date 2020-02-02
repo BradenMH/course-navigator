@@ -1,10 +1,6 @@
-# CPSC 310 Project Repository
+This application parses university data as JSON into relevant data structures and lets the user query on it with ease. Datasets used - UBC buildings and rooms & UBC course information.
 
-This repository contains starter code for the class project.
-Please keep your repository private.
-
-Piazza is your best resource for additional details about the [project](https://github.com/ubccpsc/310/blob/2019sept/project/README.md), [AutoTest](https://github.com/ubccpsc/310/blob/2019sept/project/AutoTest.md), and the specific requirements of each [project deliverable](https://github.com/ubccpsc/310/blob/2019sept/README.md#project-sprint-schedule).
-These resources will be frequently updated as the term progresses.
+UBC CPSC 310 course project
 
 ## Configuring your environment
 
