@@ -1,0 +1,19 @@
+{
+    "title": "SELECT dept: spph",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_title": "shit"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": []
+}

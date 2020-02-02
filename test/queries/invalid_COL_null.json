@@ -1,0 +1,13 @@
+{
+    "title": "Unexpected response status 400: Invalid type of COLUMN key",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                null
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

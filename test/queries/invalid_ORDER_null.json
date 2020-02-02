@@ -1,0 +1,19 @@
+{
+    "title": "Unexpected response status 400: ORDER cannot be null or undefined",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg":3
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": null
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Unexpected response status 400: Missing WHERE",
+    "query": { "OPTIONS": {} },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

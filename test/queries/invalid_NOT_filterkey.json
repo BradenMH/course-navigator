@@ -1,0 +1,18 @@
+{
+    "title": "Unexpected response status 400: Invalid filter key: courses_dept",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "courses_dept": "math"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

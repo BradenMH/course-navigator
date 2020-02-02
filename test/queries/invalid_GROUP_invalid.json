@@ -1,0 +1,28 @@
+{
+    "title": "Unexpected response status 400: Invalid key courses_lit in GROUP",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 3
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "maxAvg"
+            ],
+            "ORDER": "maxAvg"
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": ["courses_lit"],
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "MAX": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

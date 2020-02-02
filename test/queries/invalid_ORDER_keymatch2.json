@@ -1,0 +1,36 @@
+{
+    "title": "Unexpected response status 400: All ORDER keys must be in COLUMNS",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 3
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "maxAvg"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    ""
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

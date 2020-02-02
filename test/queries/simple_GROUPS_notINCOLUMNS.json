@@ -1,0 +1,33 @@
+{
+    "title": "multiple groupKeys in group, groupKey not in columns",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "maxAvg"
+            ],
+            "ORDER": "maxAvg"
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept",
+                "courses_id",
+                "courses_year"
+            ],
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "MAX": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+"result":[{"courses_dept":"epse","courses_id":"596","maxAvg":97.09},{"courses_dept":"epse","courses_id":"596","maxAvg":97.09},{"courses_dept":"math","courses_id":"541","maxAvg":97.09},{"courses_dept":"math","courses_id":"541","maxAvg":97.09},{"courses_dept":"math","courses_id":"525","maxAvg":97.25},{"courses_dept":"math","courses_id":"525","maxAvg":97.25},{"courses_dept":"epse","courses_id":"421","maxAvg":97.29},{"courses_dept":"nurs","courses_id":"591","maxAvg":97.33},{"courses_dept":"nurs","courses_id":"591","maxAvg":97.33},{"courses_dept":"epse","courses_id":"534","maxAvg":97.41},{"courses_dept":"epse","courses_id":"449","maxAvg":97.41},{"courses_dept":"cnps","courses_id":"574","maxAvg":97.47},{"courses_dept":"cnps","courses_id":"574","maxAvg":97.47},{"courses_dept":"math","courses_id":"532","maxAvg":97.48},{"courses_dept":"math","courses_id":"532","maxAvg":97.48},{"courses_dept":"educ","courses_id":"500","maxAvg":97.5},{"courses_dept":"nurs","courses_id":"578","maxAvg":97.53},{"courses_dept":"epse","courses_id":"606","maxAvg":97.67},{"courses_dept":"epse","courses_id":"549","maxAvg":97.69},{"courses_dept":"epse","courses_id":"534","maxAvg":97.78},{"courses_dept":"crwr","courses_id":"599","maxAvg":98},{"courses_dept":"nurs","courses_id":"509","maxAvg":98.21},{"courses_dept":"epse","courses_id":"421","maxAvg":98.36},{"courses_dept":"epse","courses_id":"519","maxAvg":98.45},{"courses_dept":"epse","courses_id":"519","maxAvg":98.45},{"courses_dept":"nurs","courses_id":"578","maxAvg":98.5},{"courses_dept":"nurs","courses_id":"578","maxAvg":98.58},{"courses_dept":"nurs","courses_id":"578","maxAvg":98.58},{"courses_dept":"epse","courses_id":"421","maxAvg":98.7},{"courses_dept":"nurs","courses_id":"509","maxAvg":98.71},{"courses_dept":"nurs","courses_id":"509","maxAvg":98.71},{"courses_dept":"eece","courses_id":"541","maxAvg":98.75},{"courses_dept":"eece","courses_id":"541","maxAvg":98.75},{"courses_dept":"epse","courses_id":"449","maxAvg":98.76},{"courses_dept":"epse","courses_id":"449","maxAvg":98.76},{"courses_dept":"epse","courses_id":"449","maxAvg":98.8},{"courses_dept":"spph","courses_id":"300","maxAvg":98.98},{"courses_dept":"spph","courses_id":"300","maxAvg":98.98},{"courses_dept":"cnps","courses_id":"574","maxAvg":99.19},{"courses_dept":"math","courses_id":"527","maxAvg":99.78},{"courses_dept":"math","courses_id":"527","maxAvg":99.78}]}

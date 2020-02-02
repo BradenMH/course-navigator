@@ -1,0 +1,13 @@
+{
+    "title": "Unexpected response status 400: Invalid key courses_lit in COLUMNS",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_lit"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

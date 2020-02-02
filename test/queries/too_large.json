@@ -1,0 +1,7 @@
+{
+    "title": "SELECT dept, id, avg WHERE avg == 95 || avg > 90 && dept == 'adhe' ORDER BY avg",
+    "query": {"WHERE":{"NOT":{"OR":[{"NOT":{"GT":{"courses_avg":70}}},{"NOT":{"LT":{"courses_year":3000}}},{"IS":{"courses_instructor":"*le*"}}]}},"OPTIONS":{"COLUMNS":["courses_avg","courses_dept","courses_instructor","1avg"],"ORDER":{"dir":"DOWN","keys":["courses_avg"]}},"TRANSFORMATIONS":{"GROUP":["courses_avg","courses_dept","courses_instructor"],"APPLY":[{"1avg":{"AVG":"courses_avg"}}]}},
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}
+

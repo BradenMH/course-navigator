@@ -1,0 +1,148 @@
+{
+    "title": "SELECT dept: spph",
+    "query": {
+    "WHERE": {
+        "IS": {
+            "courses_instructor": "*eather"
+        }
+    },
+    "OPTIONS": {
+        "COLUMNS": [
+            "courses_instructor"
+        ],
+        "ORDER": "courses_instructor"
+    }
+},
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_instructor": "*baker, heather"
+        },
+        {
+            "courses_instructor": "bliss, heather"
+        },
+        {
+            "courses_instructor": "bliss, heather"
+        },
+        {
+            "courses_instructor": "chappells, heather"
+        },
+        {
+            "courses_instructor": "currie, dawn heather"
+        },
+        {
+            "courses_instructor": "currie, dawn heather"
+        },
+        {
+            "courses_instructor": "currie, dawn heather"
+        },
+        {
+            "courses_instructor": "currie, dawn heather"
+        },
+        {
+            "courses_instructor": "currie, dawn heather"
+        },
+        {
+            "courses_instructor": "currie, dawn heather"
+        },
+        {
+            "courses_instructor": "denroche, heather"
+        },
+        {
+            "courses_instructor": "diack, heather"
+        },
+        {
+            "courses_instructor": "diack, heather"
+        },
+        {
+            "courses_instructor": "latimer, heather"
+        },
+        {
+            "courses_instructor": "latimer, heather"
+        },
+        {
+            "courses_instructor": "latimer, heather"
+        },
+        {
+            "courses_instructor": "mcgregor, heather"
+        },
+        {
+            "courses_instructor": "moore, edwin d;osborne, salma;roskelley, calvin;yule, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "o'brien, heather"
+        },
+        {
+            "courses_instructor": "price, heather"
+        },
+        {
+            "courses_instructor": "price, heather"
+        },
+        {
+            "courses_instructor": "price, heather"
+        },
+        {
+            "courses_instructor": "price, heather"
+        },
+        {
+            "courses_instructor": "price, heather"
+        },
+        {
+            "courses_instructor": "price, heather"
+        },
+        {
+            "courses_instructor": "trajano, heather"
+        },
+        {
+            "courses_instructor": "trajano, heather"
+        },
+        {
+            "courses_instructor": "trajano, heather"
+        },
+        {
+            "courses_instructor": "trajano, heather"
+        },
+        {
+            "courses_instructor": "trajano, heather"
+        },
+        {
+            "courses_instructor": "trajano, heather"
+        },
+        {
+            "courses_instructor": "ver, leah may;wilson, heather"
+        },
+        {
+            "courses_instructor": "ver, leah may;wilson, heather"
+        },
+        {
+            "courses_instructor": "ver, leah may;wilson, heather"
+        },
+        {
+            "courses_instructor": "ver, leah may;wilson, heather"
+        },
+        {
+            "courses_instructor": "walmsley, heather"
+        }
+    ]
+}

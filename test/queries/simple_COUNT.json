@@ -1,0 +1,30 @@
+{
+    "title": "SELECT dept, avg WHERE avg < 3",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "SectionAvgsOver90"
+            ],
+            "ORDER": "SectionAvgsOver90"
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "SectionAvgsOver90": {
+                        "COUNT": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+"result":[{"courses_dept":"crwr","SectionAvgsOver90":1},{"courses_dept":"educ","SectionAvgsOver90":1},{"courses_dept":"eece","SectionAvgsOver90":1},{"courses_dept":"spph","SectionAvgsOver90":1},{"courses_dept":"cnps","SectionAvgsOver90":2},{"courses_dept":"math","SectionAvgsOver90":4},{"courses_dept":"nurs","SectionAvgsOver90":6},{"courses_dept":"epse","SectionAvgsOver90":13}]}

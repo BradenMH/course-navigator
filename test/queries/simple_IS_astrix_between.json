@@ -1,0 +1,177 @@
+{
+    "title": "SELECT dept: spph",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_instructor": "*erkowitz, jonatha*"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_instructor"
+            ],
+            "ORDER": "courses_instructor"
+        }
+    },
+    "isQueryValid": true,
+
+    "result": [
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;fowler, ellen"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;fowler, ellen"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;fowler, ellen"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;fowler, ellen"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;ghement, isabella"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;graystone, brian"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;graystone, brian"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;hasheminia, hamed"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;hasheminia, hamed"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;liang, liping"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;ryan, chris"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;werker, gregory"
+        },
+        {
+            "courses_instructor": "berkowitz, jonathan;yuen, andrew"
+        }
+    ]
+}
+

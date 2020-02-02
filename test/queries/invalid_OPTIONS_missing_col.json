@@ -1,0 +1,9 @@
+{
+    "title": "Unexpected response status 400: OPTIONS missing COLUMNS",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

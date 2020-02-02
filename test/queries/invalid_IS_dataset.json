@@ -1,0 +1,18 @@
+{
+    "title": "Unexpected response status 400: Referenced dataset \"yo\" not added yet",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "yo_dept": "spph"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,5 @@
+{
+    "query1": "simple query IS comparison for department with two columns and old order syntax",
+    "courses_gt": "simple GT with one cp",
+    "noFilter": "where is empty"
+}

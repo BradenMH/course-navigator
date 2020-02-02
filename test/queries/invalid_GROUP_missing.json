@@ -1,0 +1,28 @@
+{
+    "title": "Unexpected response status 400: Keys in COLUMNS must be in GROUP or APPLY when TRANSFORMATIONS is present",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 3
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        },
+        "TRANSFORMATIONS": {
+            "APPLY": [
+                {
+                    "overallAvg": {
+                        "MAX": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

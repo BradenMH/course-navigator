@@ -1,0 +1,16 @@
+{
+    "title": "Unexpected response status 400: OR should only have 1 key, has 0",
+    "query": {
+        "WHERE": {
+            "OR": [{},{}]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

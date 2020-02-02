@@ -1,0 +1,29 @@
+{
+    "title": "Unexpected response status 400: GROUP must be a non-empty array",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 3
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "maxAvg"
+            ],
+            "ORDER": "maxAvg"
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": null,
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "MAX": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

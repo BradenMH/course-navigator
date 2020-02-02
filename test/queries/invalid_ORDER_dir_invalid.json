@@ -1,0 +1,36 @@
+{
+    "title": "Unexpected response status 400: Invalid ORDER direction",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 3
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "maxAvg"
+            ],
+            "ORDER": {
+                "dir": "",
+                "keys": [
+                    "courses_dept"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_dept"
+            ],
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "AVG": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

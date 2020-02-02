@@ -1,0 +1,16 @@
+{
+    "title": "Unexpected response status 400: AND must be a non-empty array",
+    "query": {
+        "WHERE": {
+            "AND": []
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

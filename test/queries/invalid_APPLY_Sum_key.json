@@ -1,0 +1,29 @@
+{
+    "title": "Unexpected response status 400: Invalid key type in Sum",
+    "query": {
+    "WHERE": {
+        "LT": {
+            "courses_avg": 3
+        }
+    },
+    "OPTIONS": {
+        "COLUMNS": [
+            "courses_dept",
+            "maxAvg"
+        ],
+        "ORDER": "maxAvg"
+    },
+    "TRANSFORMATIONS": {
+        "GROUP": ["courses_dept"],
+        "APPLY": [
+            {
+                "maxAvg": {
+                    "SUM": "courses_dept"
+                }
+            }
+        ]
+    }
+},
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Unexpected response status 400: Cannot read property 'GROUP' of undefined",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                ""
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
