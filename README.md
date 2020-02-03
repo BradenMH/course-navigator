@@ -1,6 +1,6 @@
 This application parses university data as JSON into relevant data structures and lets the user query on it with ease. Datasets used - UBC buildings and rooms & UBC course information.
 
-UBC CPSC 310 course project
+UBC CPSC 310 Insight Facade course project
 
 ## Configuring your environment
 
