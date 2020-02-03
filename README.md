@@ -15,17 +15,52 @@ To do this, follow these steps; the specifics of each step (especially the first
 
 1. Clone your repository by running `git clone REPO_URL` from the command line. You can get the REPO_URL by clicking on the green button on your project repository page on GitHub.
 
-## Project commands
+## Project Commands
 
-Once your environment is configured you need to further prepare the project's tooling and dependencies.
-In the project folder:
+Once your project is configured you need to further prepare the project's tooling and dependencies. In the cpsc310project folder (on OS X / Linux):
 
-1. `yarn install` to download the packages specified in your project's *package.json* to the *node_modules* directory.
+- yarn run clean
 
-1. `yarn build` to compile your project. You must run this command after making changes to your TypeScript files.
+- yarn install
 
-1. `yarn test` to run the test suite.
+- yarn run build
+
+If you use Windows; instead try (and hope):
+
+- yarn run cleanwin
+
+- yarn install
+
+- yarn run build
+
+## Executing the test suite
+
+The sample project ships with some automated unit tests. These commands will execute the suites:
+
+Test: yarn run test (or yarn test)
+
+Test coverage: yarn run cover (or yarn run coverwin if you use Windows). HTML reports can be found: ./coverage/lcov-report/index.html
+
+You can also run the tests as a Mocha target inside your favourite IDE (WebStorm and VSCode both work well and are free for academic use); some students are also using Atom and Cloud9 (although this will require a bit of fiddling since it runs in the cloud).
+
+Executing the private test suite
+
+To invoke the private suite, add a @autobot mention to any commit in your main branch in Github. Remember: these are rate limited so choose your commits wisely. Additional details can be found in the AutoTest documentation.
+
+## Starting the server
+
+- yarn run start
+
+## Developing your project
+
+As you change your TypeScript code you will have to re-compile. This can be done with yarn run build to build the system and get it ready to execute. You should always fix any compilation errors shown in this step; this is required for AutoTest to succeed. New unit tests can be written and added to /test.
 
 ## Running and testing from an IDE
 
-WebStorm should be automatically configured the first time you open the project (WebStorm is a free download through their students program). For other IDEs and editors, you'll want to set up test and debug tasks and specify that the schema of all files in `test/queries` should follow `test/query.schema.json`.
+While these instructions are for WebStorm, other IDEs (e.g., VSCode, Atom, etc.) and editors (e.g., Sublime) should be similar, or will at least be compatible with the command line options described above.
+
+To run or test the system in WebStorm you will need to configure run targets:
+
+To run the system: Go to the Run->Edit Configurations and tap on the + and then Node.js. Point the 'JavaScript file' argument to src/App.js.
+
+To run unit tests: Go to the Run->Edit Configurations and tap on the + and then Mocha. Point the 'Test Directory' file argument to test/. You can also optionally tap the + in the Before launch box and select Compile TypeScript if you want to make sure a fresh TypeScript compile is forced before each test run.
